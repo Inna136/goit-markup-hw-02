@@ -5,14 +5,16 @@ background-color: #fff;
 font-family: Roboto, sans-serif;
 }
 /* Header */
-.a {
+.list {
     list-style-type: none;
+}
+.link {
     text-decoration: none;
-     }
-     .button {
+}
+ .button {
         cursor: pointer;
     }
-    .addres {
+.addres {
         font-style: normal;
     }
 .logo {
@@ -46,10 +48,9 @@ text-transform: uppercase;
    .menu-links {
     font-family: Roboto;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.32em;
    }
    .menu-item-link {
     color: #434455;
@@ -60,7 +61,7 @@ text-transform: uppercase;
     line-height: 24px;
     letter-spacing: 0.32px;
    }
-   
+
 
 
 
