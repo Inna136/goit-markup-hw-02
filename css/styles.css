@@ -27,27 +27,38 @@ ul {
     }
 .top-header {
 
-}
+    }
 .main-navigation {
-    
-}
+
+    }              
 /* Logo */
-.text-logo {
+.logo-link {
     color: #4D5AE5;
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; 
+    }
+.text-logo {
+    color: #2E2F42;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.54px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     }
 .text-logo:hover,
 .text-logo:active,
 .text-logo:focus {
     color: #404bbf;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1,5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-transform: uppercase;
     }
 .menu-item {
     color: #2e2f42;
@@ -58,6 +69,7 @@ ul {
     letter-spacing: 0.02em;
     }
 .menu-links:hover {
+    color: #404bbf;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
@@ -101,16 +113,20 @@ ul {
     letter-spacing: 1.12px;
     }
 .button-banner-text {
-    color: #FFF;
-    font-family: Roboto;
+    color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px; 
     letter-spacing: 0.64px;
+    cursor: pointer;
     }
+.button-banner-text:hover {
+    background-color: #404BBF
+}
 /* section 1 */
 .page-company {
-
+    background-color: #2e2f42;
     }
 .page {
 
@@ -120,7 +136,7 @@ ul {
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.07;
     letter-spacing: 0.4px;
     }
 .page-text {
@@ -188,7 +204,7 @@ ul {
         font-family: Roboto;
         font-size: 36px;
         font-weight: 700;
-        line-height: 40px;
+        line-height: 1.11;
         letter-spacing: 0.72px;
         text-transform: capitalize;
     }
@@ -205,16 +221,16 @@ ul {
         font-family: Roboto;
         font-size: 20px;
         font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.4px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
     }
     .portfolio-txt {
         color: #434455;
         font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
-        line-height: 24px;
-        letter-spacing: 0.32px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
     }
     /* Footer */
     .page-footer {
