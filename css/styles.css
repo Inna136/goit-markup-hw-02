@@ -20,7 +20,7 @@
 ul {
     list-style: none;
     }
-/* .ul,ol { */
+.ul,ol { 
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
@@ -184,8 +184,6 @@ ul {
 
     /* section 3 (Our Portfolio) */
     .main-portfolio {
-        width: 1440px;
-        height: 3300px;
         background: #FFF;
     }
     .portfolio-title {
