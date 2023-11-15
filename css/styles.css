@@ -25,10 +25,13 @@ ul {
     margin-bottom: 0;
     margin-left: 0;
     }
-/* Logo */
 .top-header {
+
+}
+.main-navigation {
     
 }
+/* Logo */
 .text-logo {
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
