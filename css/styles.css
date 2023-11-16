@@ -77,7 +77,7 @@ ul {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0.32em;
+    letter-spacing: 0.02em;
    }
 .menu-item-link {
     color: #434455;
@@ -88,8 +88,9 @@ ul {
     line-height: 24px;
     letter-spacing: 0.32px;
    }
-   .menu-links-link {
-    color: #2e2f42;
+   .menu-links-link:hover,
+   .menu-links-link:focus {
+    color: #404bbf;
    }
 .contacts-link {
     color:#434455;
@@ -253,7 +254,7 @@ ul {
     }
     .logo-footer {
         margin-bottom: 16px;
-        font-family: "Releway", sans-serif;
+        font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
