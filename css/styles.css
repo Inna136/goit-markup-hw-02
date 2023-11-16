@@ -101,7 +101,7 @@ ul {
     line-height: 24px;
     letter-spacing: 0.32px;
     }
-.contacts-mail {
+.contacts {
     color: #434455;
     font-weight: 153px;
     line-height: 24px;
@@ -111,23 +111,9 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     }
-    .contacts-mail:hover,
-    .contacts-mail:focus {
+    .contacts:hover,
+    .contacts:focus {
     color: #404bbf   
-    }
-.contacts-tel {
-    color: #434455;
-    font-weight: 154px;
-    line-height: 24px;
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    }
-    .contacts-tel:hover, 
-    .contacts-tel:hover {
-    color: #404bbf    
     }
 /* main content */
 .section-banner {
