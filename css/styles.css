@@ -129,12 +129,13 @@ ul {
     letter-spacing: 1.12px;
     }
 .button {
-    background-color: #4D5AE5;
+    
     }
     .button:focus {
     background-color:#404BBF;  
     }
 .button-banner-text {
+    background-color: #4D5AE5;
     color: #ffffff;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
