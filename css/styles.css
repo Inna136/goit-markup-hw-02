@@ -277,6 +277,11 @@ ul {
         line-height: 24px;
         letter-spacing: 0.32px;
     }
+    .hero-description {
+        width: 314px;
+        border: 10px solid teal;
+
+    }
 
 
 
