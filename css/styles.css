@@ -347,7 +347,6 @@ img {
 .portfolio {
     display: flex;
     flex-wrap: wrap;
-    width: 1158px;
     row-gap: 48px;
     column-gap: 24px;
     border: 1px solid #e7e9fc;
