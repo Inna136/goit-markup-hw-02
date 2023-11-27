@@ -385,7 +385,8 @@ img {
     /* Footer */
 .page-footer {
     background-color: #2E2F42;
-    padding: 100px 0;  
+    padding: 100px 0;
+    display: inline-block; 
     } 
 .logo-footer {
     display: inline-block;
