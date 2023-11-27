@@ -43,8 +43,10 @@ img {
 .main-navigation {
     display: flex;
     align-items: center;
+    padding: 24px 0;
     }   
 .container {
+    display: flex;
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
@@ -52,9 +54,6 @@ img {
     margin-right: auto;
 }           
 /* Logo */
-.logo-size {
-    margin-right: 76px 
-}
 .logo-link {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
@@ -64,6 +63,7 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase; 
+    margin-right: 76px;
     }
 .text-logo {
     color: #2E2F42;
@@ -238,7 +238,6 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-    
     } 
 .page-item {
     color: #2E2F42;
@@ -260,7 +259,7 @@ img {
     .page-container { 
 
     }
-     /* section 2 (Team) */
+     /* section 3 (Team) */
 
 .main-team {
     background: #F4F4FD;
@@ -278,7 +277,6 @@ img {
     letter-spacing: 0.72px;
     text-transform: capitalize;
     margin-bottom: 72px;
-
     }
 .team {
      display: flex;  
@@ -292,7 +290,7 @@ img {
      align-items: center;
      gap: 24px; 
      border-radius: 0px 0px 4px 4px;
-     background: #FFF);
+     background: #FFF;
      box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 
     }
