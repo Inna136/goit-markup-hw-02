@@ -210,6 +210,7 @@ img {
     line-height: 24px; 
     letter-spacing: 0.64px;
     cursor: pointer;
+    border: none;
     min-width: 169px;
     height: 56px;
     border-radius: 4px
@@ -229,7 +230,7 @@ img {
     gap: 24px;
     }
     .page-item-list {
-        width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
         
     }
 .visually-hidden {
@@ -301,11 +302,11 @@ img {
     }
 .team-list {
         background-color: #ffffff;
-        width: calc((100% - 72px) / 4) ;
+        width: calc((100% - 72px) / 4);
         border-radius: 0px 0px 4px 4px;
         border: none;
         box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-
+        
     }
 .team-name {
         color: #2E2F42;
