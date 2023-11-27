@@ -115,9 +115,6 @@ img {
     line-height: 24px;
     letter-spacing: 0.02em;
    }
-   .menu-contacts-last {
-    margin-right: 0;
-   }
 .menu-item-link {
     color: #434455;
     font-family: Roboto;
@@ -187,7 +184,17 @@ img {
     letter-spacing: 0.64px;
     min-width: 169px;
     height: 56px;
-    border: none; 
+    border: none;
+    }
+    .button-size {
+    display: block; 
+    margin-right: auto;
+    margin-left: auto;  
+    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px; 
     }
     .button:focus {
     background-color:#404BBF;  
