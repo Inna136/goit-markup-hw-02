@@ -409,6 +409,7 @@ img {
     text-transform: uppercase;
     }
 .footer-txt {
+    display: inline-block;
     color: #F4F4FD;
     font-family: Roboto;
     font-size: 16px;
