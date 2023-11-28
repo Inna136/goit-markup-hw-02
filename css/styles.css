@@ -36,7 +36,14 @@ img {
     max-width: 100%;
     height: auto;
     }
-
+    .container {
+        width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        } 
+/* Header */
 .top-header {
     border-bottom: 1px solid #e7e9fc
     }
@@ -44,17 +51,12 @@ img {
     display: flex;
     align-items: center;
     padding: 24px 0;
-    }   
-.container {
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    }           
-/* Header */
+    }             
 .container-header {
-    display: flex;  
+    display: flex;
+    width: 1158px;
+    margin: 0 auto; 
+    padding: 0 15px;
 }
 .logo-link {
     color: #4D5AE5;
