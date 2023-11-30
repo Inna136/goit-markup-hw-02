@@ -154,6 +154,8 @@ img {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     }
 .contacts {
     color: #434455;
@@ -164,10 +166,6 @@ img {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    }
-    .contacts:hover,
-    .contacts:focus {
-    color: #404bbf   
     }
 /* section 1 */
 .section-banner {
