@@ -37,27 +37,35 @@ img {
     height: auto;
     }
     .container {
-        width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-left: auto;
-        margin-right: auto;
-        } 
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    } 
 /* Header */
 .top-header {
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+    align-items: center;
+
     }
 .main-navigation {
     display: flex;
     align-items: center;
     padding: 24px 0;
-    }             
+    margin-right: auto;
+    }              
 .container-header {
     display: flex;
     width: 1158px;
     margin: 0 auto; 
     padding: 0 15px;
-}
+    }
+.top-header-container {
+    width: 1158px;
+    margin: 0 auto; 
+    padding: 0 15px;
+    }
 .logo-link {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
@@ -92,9 +100,9 @@ img {
     display: flex;
     }
     .menu-list {
-        display: flex;
-        gap: 40px;
-        padding: 24px 0;
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
     } 
 .menu-item {
     color: #2e2f42;
@@ -136,6 +144,7 @@ img {
 .contacts-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
    }   
 .contacts-link {
     color:#434455;
