@@ -405,7 +405,6 @@ img {
     color: #4D5AE5;
     }
 .logo-studio-footer {
-    display: inline-block;
     color: #F4F4FD;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -415,7 +414,6 @@ img {
     text-transform: uppercase;
     }
 .footer-txt {
-    display: inline-block;
     color: #F4F4FD;
     font-family: Roboto;
     font-size: 16px;
@@ -423,6 +421,7 @@ img {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.32px;
+    max-width:  264px;
     }
     
     
