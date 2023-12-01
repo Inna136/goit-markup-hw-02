@@ -393,12 +393,6 @@ img {
     padding: 100px 0;
     display: inline-block; 
     } 
-.footer-container {
-    display: flex;
-    width: 1158px;
-    margin: 0 auto; 
-    padding: 0 15px;   
-    }
 .logo-footer {
     display: inline-block;
     margin-bottom: 16px;
