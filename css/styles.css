@@ -292,6 +292,7 @@ img {
     }
 .team {
      display: flex;  
+     gap: 24px;
      align-content: flex-start;
      justify-content: center;
      align-items: center;   
