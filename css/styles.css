@@ -47,7 +47,8 @@ img {
 .top-header {
     border-bottom: 1px solid #e7e9fc;
     align-items: center;
-
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px 
+    rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     }
 .main-navigation {
     display: flex;
@@ -66,7 +67,7 @@ img {
     padding: 0 15px;
     }
 .logo-link {
-    color: #4D5AE5;
+    color: #404bbf;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -76,6 +77,7 @@ img {
     text-transform: uppercase; 
     margin-right: 76px;
     padding: 24px 0;
+    position: relative;
     }
 .text-logo {
     color: #2E2F42;
@@ -171,11 +173,9 @@ img {
     background-image: linear-gradient( to bottom,
     rgba(46, 47, 66, 0.7)
     rgba(46, 47, 66, 0.7)),
-    url(../image/people-office.jpg);
+    url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover 1440px;
-    background-clip: padding-box;
     max-width: 1440px;
     background-size: cover;
     }
