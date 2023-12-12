@@ -170,20 +170,18 @@ img {
 .section-banner {
     background-color: #2e2f42; 
     padding: 188px 0; 
-    background-image: linear-gradient( to bottom,
-    rgba(46, 47, 66, 0.7)
-    rgba(46, 47, 66, 0.7)),
-    url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     max-width: 1440px;
     background-size: cover;
+    max-width: 1440px;
+    background-clip: padding-box;
+    background-image: linear-gradient( to bottom,
+    rgba(46, 47, 66, 0.7)
+    rgba(46, 47, 66, 0.7)),
+    url(../images/people-office.jpg);
     }
-.background {
-    background-image: url(../images/people-office.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 1440px 600px;
+    .background {
     }
 .banner {
     color: #FFF;
