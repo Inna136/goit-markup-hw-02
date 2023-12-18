@@ -456,8 +456,10 @@ img {
     display: flex; 
     align-items: baseline;
 }
+.container-two {
+    display: flex; 
+}
 .footer-icon-div {
-    display: flex;
     margin-right: 120px;
 }
 .page-footer {
@@ -495,7 +497,7 @@ img {
     max-width:  264px;
     }
 .footer-social {
-    display: flex;    
+     
     }
 .footer-social-name {
     text-align: center;
