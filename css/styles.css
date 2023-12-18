@@ -129,6 +129,21 @@ img {
     letter-spacing: 0.02em;
     padding: 24px 0;
     }
+    .current {
+        position: relative;
+        color: #404bbf;
+    }
+    .menu-links-link.current::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -1px;
+        display: block;
+        height: 4px;
+        background-color: #404BBF;
+        border-radius: 2px;
+        width: 100%;
+    }
 .menu-item-link {
     color: #434455;
     font-family: Roboto;
