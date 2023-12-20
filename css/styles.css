@@ -280,6 +280,11 @@ img {
     background-color: #F4F4FD;
     border-radius: 4px;
     border: 1px solid #8E8F99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    margin-bottom: 8px;  
     }
 .page-icon {
    display: flex;
@@ -472,6 +477,7 @@ img {
 .top-container {
     display: flex; 
     align-items: baseline;
+    margin-right: 120px
 }
 .container-two {
     display: flex; 
